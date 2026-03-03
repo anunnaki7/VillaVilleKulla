@@ -36,9 +36,9 @@ const T = {
     hero_scroll: 'Skrolujte',
     about_label: 'O NAMA',
     about_heading_1: 'Dobrodošli u',
-    about_heading_2: 'VillaVilleKulla',
-    about_p1: 'Dobrodošli u VillaVilleKulla — vaše savršeno utočište u srcu Kolašina. Smješten u mirnom okruženju, samo 3 minuta od centra grada, naš apartman pruža savršen spoj komfora, elegancije i prirode.',
-    about_p2: 'Bilo da tražite zimsku avanturu na skijalištima ili ljetnji bijeg u planine, VillaVilleKulla je idealan izbor za nezaboravan odmor. Vila raspolaže i privatnom saunom za potpuno opuštanje nakon aktivnog dana u prirodi.',
+    about_heading_2: 'Villa VilleKulla',
+    about_p1: 'Dobrodošli u Villa VilleKulla — vaše savršeno utočište u srcu Kolašina. Smješten u mirnom okruženju, samo 3 minuta od centra grada, naš apartman pruža savršen spoj komfora, elegancije i prirode.',
+    about_p2: 'Bilo da tražite zimsku avanturu na skijalištima ili ljetnji bijeg u planine, Villa VilleKulla je idealan izbor za nezaboravan odmor. Vila raspolaže i privatnom saunom za potpuno opuštanje nakon aktivnog dana u prirodi.',
     about_cta: 'Pogledajte galeriju →',
     amenities_label: 'POGODNOSTI',
     amenities_title: 'Sve što vam treba',
@@ -82,9 +82,9 @@ const T = {
     form_success_text: 'Vaša poruka je primljena. Javićemo vam se uskoro.',
     cta_title: 'Rezervišite vaš boravak',
     cta_btn: 'Rezervišite na Booking.com',
-    footer_copyright: '© 2025 VillaVilleKulla, Kolašin. Sva prava zadržana.',
+    footer_copyright: '© 2025 Villa VilleKulla, Kolašin. Sva prava zadržana.',
     footer_made: 'Made with ❤️ in Montenegro',
-    preloader_text: 'VillaVilleKulla',
+    preloader_text: 'Villa VilleKulla',
   },
   en: {
     nav_home: 'Home',
@@ -120,9 +120,9 @@ const T = {
     hero_scroll: 'Scroll',
     about_label: 'ABOUT US',
     about_heading_1: 'Welcome to',
-    about_heading_2: 'VillaVilleKulla',
-    about_p1: 'Welcome to VillaVilleKulla — your perfect retreat in the heart of Kolašin. Nestled in a peaceful setting, just 3 minutes from the city center, our apartment offers a perfect blend of comfort, elegance, and nature.',
-    about_p2: "Whether you're seeking a winter adventure on the ski slopes or a summer escape to the mountains, VillaVilleKulla is the ideal choice for an unforgettable vacation. The villa features a private sauna for complete relaxation after an active day in nature.",
+    about_heading_2: 'Villa VilleKulla',
+    about_p1: 'Welcome to Villa VilleKulla — your perfect retreat in the heart of Kolašin. Nestled in a peaceful setting, just 3 minutes from the city center, our apartment offers a perfect blend of comfort, elegance, and nature.',
+    about_p2: "Whether you're seeking a winter adventure on the ski slopes or a summer escape to the mountains, Villa VilleKulla is the ideal choice for an unforgettable vacation. The villa features a private sauna for complete relaxation after an active day in nature.",
     about_cta: 'View gallery →',
     amenities_label: 'AMENITIES',
     amenities_title: 'Everything You Need',
@@ -166,9 +166,9 @@ const T = {
     form_success_text: 'Your message has been received. We will get back to you soon.',
     cta_title: 'Book Your Stay',
     cta_btn: 'Book on Booking.com',
-    footer_copyright: '© 2025 VillaVilleKulla, Kolašin. All rights reserved.',
+    footer_copyright: '© 2025 Villa VilleKulla, Kolašin. All rights reserved.',
     footer_made: 'Made with ❤️ in Montenegro',
-    preloader_text: 'VillaVilleKulla',
+    preloader_text: 'Villa VilleKulla',
   }
 } as const;
 
@@ -182,18 +182,18 @@ const INSTAGRAM_SANDRA = 'https://www.instagram.com/sandrabulatovicc?igsh=aHVlcD
 
 // 12 images total — 5 originals + 7 new (573376916 removed)
 const GALLERY_IMAGES = [
-  { src: 'https://i.ibb.co/qMZj3ChM/IMG-3852.jpg',     alt: 'VillaVilleKulla exterior' },
+  { src: 'https://i.ibb.co/qMZj3ChM/IMG-3852.jpg',     alt: 'Villa VilleKulla exterior' },
   { src: 'https://i.ibb.co/tPbcnwCw/IMG-3853.jpg',     alt: 'Private Sauna' },
   { src: 'https://i.ibb.co/SZPRbbY/IMG-3846.jpg',      alt: 'Interior 1' },
   { src: 'https://i.ibb.co/8nrQkCD8/IMG-3844.jpg',     alt: 'Interior 2' },
   { src: 'https://i.ibb.co/W4tzf7Rh/IMG-3843.jpg',     alt: 'Interior 3' },
-  { src: 'https://i.ibb.co/PZCvZTCv/434897524.jpg',    alt: 'VillaVilleKulla view 6' },
-  { src: 'https://i.ibb.co/ZRKC2xZ4/434897758.jpg',    alt: 'VillaVilleKulla view 7' },
-  { src: 'https://i.ibb.co/K4qxzRV/434898803.jpg',     alt: 'VillaVilleKulla view 8' },
-  { src: 'https://i.ibb.co/qYtx6JLN/434899543.jpg',    alt: 'VillaVilleKulla view 9' },
-  { src: 'https://i.ibb.co/G3NBsLKn/434899731.jpg',    alt: 'VillaVilleKulla view 10' },
-  { src: 'https://i.ibb.co/pVNCqzS/434900281.jpg',     alt: 'VillaVilleKulla view 11' },
-  { src: 'https://i.ibb.co/3yBTbtz6/434901531.jpg',    alt: 'VillaVilleKulla view 12' },
+  { src: 'https://i.ibb.co/PZCvZTCv/434897524.jpg',    alt: 'Villa VilleKulla view 6' },
+  { src: 'https://i.ibb.co/ZRKC2xZ4/434897758.jpg',    alt: 'Villa VilleKulla view 7' },
+  { src: 'https://i.ibb.co/K4qxzRV/434898803.jpg',     alt: 'Villa VilleKulla view 8' },
+  { src: 'https://i.ibb.co/qYtx6JLN/434899543.jpg',    alt: 'Villa VilleKulla view 9' },
+  { src: 'https://i.ibb.co/G3NBsLKn/434899731.jpg',    alt: 'Villa VilleKulla view 10' },
+  { src: 'https://i.ibb.co/pVNCqzS/434900281.jpg',     alt: 'Villa VilleKulla view 11' },
+  { src: 'https://i.ibb.co/3yBTbtz6/434901531.jpg',    alt: 'Villa VilleKulla view 12' },
 ];
 
 // ─── Component ───────────────────────────────────────────────
@@ -338,7 +338,7 @@ export default function App() {
     <>
       {/* ── PRELOADER ─────────────────────────────── */}
       <div id="preloader" className={preloaderHidden ? 'hidden' : ''}>
-        <p className="preloader-title">VillaVilleKulla</p>
+        <p className="preloader-title">Villa VilleKulla</p>
         <div className="preloader-line" />
       </div>
 
@@ -346,8 +346,8 @@ export default function App() {
       <nav id="navbar" className={navScrolled ? 'scrolled' : ''} aria-label="Main navigation">
         <div className="nav-inner">
           {/* Logo */}
-          <a href="#hero" className="nav-logo" onClick={e => { e.preventDefault(); scrollTo('hero'); }} aria-label="VillaVilleKulla home">
-            <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="VillaVilleKulla Logo" />
+          <a href="#hero" className="nav-logo" onClick={e => { e.preventDefault(); scrollTo('hero'); }} aria-label="Villa VilleKulla home">
+            <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="Villa VilleKulla Logo" />
           </a>
 
           {/* Center links */}
@@ -403,7 +403,7 @@ export default function App() {
 
         {/* Logo */}
         <div className="mobile-menu-logo">
-          <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="VillaVilleKulla Logo" />
+          <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="Villa VilleKulla Logo" />
         </div>
 
         {/* Gold line 1 — below logo */}
@@ -461,7 +461,7 @@ export default function App() {
         <div className="hero-bg">
           <img
             src="https://i.ibb.co/qMZj3ChM/IMG-3852.jpg"
-            alt="VillaVilleKulla mountain apartment"
+            alt="Villa VilleKulla mountain apartment"
           />
         </div>
         {/* Overlay — z-index:2, sits above image */}
@@ -469,7 +469,7 @@ export default function App() {
         <div className="hero-content">
           <div className="hero-top-line" aria-hidden="true" />
           <p className="hero-location">{t('hero_location')}</p>
-          <div className="hero-title" aria-label="VillaVilleKulla">
+          <div className="hero-title" aria-label="Villa VilleKulla">
             <span className="hero-title-villa">Villa</span>
             <span className="hero-title-villekulla">VilleKulla</span>
           </div>
@@ -515,7 +515,7 @@ export default function App() {
               <div className="about-image-frame" aria-hidden="true" />
               <img
                 src="https://i.ibb.co/W4tzf7Rh/IMG-3843.jpg"
-                alt="VillaVilleKulla interior — elegant mountain apartment"
+                alt="Villa VilleKulla interior — elegant mountain apartment"
                 loading="lazy"
               />
             </div>
@@ -577,29 +577,13 @@ export default function App() {
             {
               icon: (
                 <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6A664" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <circle cx="12" cy="12" r="4"/>
-                  <line x1="12" y1="2" x2="12" y2="5"/>
-                  <line x1="12" y1="19" x2="12" y2="22"/>
-                  <line x1="2" y1="12" x2="5" y2="12"/>
-                  <line x1="19" y1="12" x2="22" y2="12"/>
-                  <line x1="4.93" y1="4.93" x2="6.76" y2="6.76"/>
-                  <line x1="17.24" y1="17.24" x2="19.07" y2="19.07"/>
-                  <line x1="4.93" y1="19.07" x2="6.76" y2="17.24"/>
-                  <line x1="17.24" y1="6.76" x2="19.07" y2="4.93"/>
-                </svg>
-              ),
-              titleKey: 'a5_title' as TKey, descKey: 'a5_desc' as TKey, delay: 400,
-            },
-            {
-              icon: (
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C6A664" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/>
                   <path d="M3 9l2-4h14l2 4"/>
                   <line x1="12" y1="13" x2="12" y2="17"/>
                   <line x1="10" y1="15" x2="14" y2="15"/>
                 </svg>
               ),
-              titleKey: 'a6_title' as TKey, descKey: 'a6_desc' as TKey, delay: 500,
+              titleKey: 'a6_title' as TKey, descKey: 'a6_desc' as TKey, delay: 400,
             },
           ] as Array<{ icon: React.ReactNode; titleKey: TKey; descKey: TKey; delay: number }>).map((item) => (
             <article key={item.titleKey} className="amenity-card reveal" data-delay={item.delay}>
@@ -786,7 +770,7 @@ export default function App() {
 
       {/* ── SAUNA HIGHLIGHT ───────────────────────── */}
       <section id="sauna" aria-label="Sauna highlight">
-        <div className="sauna-bg" role="img" aria-label="Private sauna at VillaVilleKulla" />
+        <div className="sauna-bg" role="img" aria-label="Private sauna at Villa VilleKulla" />
         <div className="sauna-overlay" />
         <div className="sauna-content reveal">
           <span className="label-text">{t('sauna_label')}</span>
@@ -929,7 +913,7 @@ export default function App() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="VillaVilleKulla location on Google Maps"
+                title="Villa VilleKulla location on Google Maps"
               />
             </div>
           </div>
@@ -1007,7 +991,7 @@ export default function App() {
 
       {/* ── BOOKING CTA ───────────────────────────── */}
       <section id="booking-cta" aria-label="Book your stay">
-        <div className="cta-bg" role="img" aria-label="VillaVilleKulla interior" />
+        <div className="cta-bg" role="img" aria-label="Villa VilleKulla interior" />
         <div className="cta-overlay" />
         <div className="cta-content reveal">
           <div className="cta-line" aria-hidden="true" />
@@ -1022,8 +1006,8 @@ export default function App() {
       <footer aria-label="Site footer">
         <div className="footer-inner container">
           <div className="footer-logo">
-            <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="VillaVilleKulla Logo" />
-            <p className="footer-brand">VillaVilleKulla</p>
+            <img src="https://i.ibb.co/5gbjkysw/IMG-3848.png" alt="Villa VilleKulla Logo" />
+            <p className="footer-brand">Villa VilleKulla</p>
           </div>
 
           <nav className="footer-links" aria-label="Footer navigation">
@@ -1070,7 +1054,7 @@ export default function App() {
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-btn"
-        aria-label="Contact us on WhatsApp"
+        aria-label="Contact Villa VilleKulla on WhatsApp"
       >
         <svg width="26" height="26" viewBox="0 0 24 24" fill="white" aria-hidden="true">
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>

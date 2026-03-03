@@ -1021,23 +1021,33 @@ img[loading="lazy"] {
   margin-top: 16px;
 }
 
+/* ── Amenities grid: 5 cards, desktop = all 5 in one row (5 cols)
+   Tablet: flex wrap 3+2 centered. Mobile: 2-col grid, last spans full. */
 .amenities-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1px;
   background-color: rgba(255,255,255,0.04);
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .amenity-card {
   background-color: var(--bg-dark-secondary);
-  padding: 50px 40px;
+  padding: 45px 28px;
   border: 1px solid rgba(255,255,255,0.04);
   transition: border-color 0.4s ease, transform 0.4s ease;
   cursor: default;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
 }
 
 .amenity-card:hover {
   border-color: rgba(198,166,100,0.3);
+  background: #1A1A1A;
   transform: translateY(-4px);
 }
 
@@ -2266,7 +2276,19 @@ footer {
   .about-grid { gap: 48px; }
   .contact-grid { gap: 48px; }
 
-  .amenities-grid { grid-template-columns: repeat(2, 1fr); }
+  /* Tablet: flex wrap so 3 cards fill row 1, 2 cards center on row 2 */
+  .amenities-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    background-color: transparent;
+  }
+
+  .amenity-card {
+    width: calc(33.333% - 1px);
+    box-sizing: border-box;
+  }
 
   /* BUG 3 FIX: location stacks on tablet too — the 40/60 split is too
      tight at tablet widths and the map iframe can push past the viewport */
@@ -2335,8 +2357,22 @@ footer {
 
   .about-image-frame { display: none; }
 
-  .amenities-grid { grid-template-columns: 1fr; }
-  .amenity-card { padding: 36px 28px; }
+  /* Mobile: 2-col grid, last (5th) card spans full width */
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background-color: rgba(255,255,255,0.04);
+  }
+
+  .amenity-card {
+    width: 100%;
+    padding: 36px 20px;
+  }
+
+  .amenity-card:last-child {
+    grid-column: span 2;
+  }
 
   /* Gallery — mobile: 2-column Instagram-style grid, 6 rows × 2 cols = 12 */
   .gallery-grid {
@@ -2489,6 +2525,15 @@ footer {
 
 @media (max-width: 480px) {
   .hero-buttons { flex-direction: column; gap: 12px; }
+
+  /* Very small mobile: single column amenities, no span */
+  .amenities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenity-card:last-child {
+    grid-column: span 1;
+  }
   .hero-title-villa,
   .hero-title-villekulla {
     font-size: clamp(42px, 13vw, 72px);
@@ -2509,7 +2554,12 @@ footer {
 @media (min-width: 1440px) {
   .container { max-width: 1320px; }
   .nav-inner { max-width: 1320px; }
-  .amenities-grid { max-width: 1320px; margin: 0 auto; }
+  .amenities-grid {
+    max-width: 1320px;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+  }
   .gallery-grid {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1320px;
